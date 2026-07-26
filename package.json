@@ -9,5 +9,9 @@
     "@nx/js": "23.1.0",
     "@nx/workspace": "23.1.0",
     "nx": "23.1.0"
-  }
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
 }
