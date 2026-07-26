@@ -1,0 +1,3 @@
+[submodule "apps/whats-on/content"]
+	path = apps/whats-on/content
+	url = https://github.com/FOR-SPORT/whats-on-content
