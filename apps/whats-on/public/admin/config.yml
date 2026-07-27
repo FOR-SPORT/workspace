@@ -11,7 +11,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "greeting"
     label: "Greeting"
-    folder: "src/content/greeting"
+    folder: "greeting"
     create: false
     fields:
       - { label: "Text", name: "text", widget: "string" }
