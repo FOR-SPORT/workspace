@@ -14,18 +14,11 @@ collections:
     folder: "apps/whats-on/src/content/greeting"
     create: false
     fields:
-      - label: "Text"
-        name: "text"
-        widget: "string"
+      - { label: "Text", name: "text", widget: "string" }
+
   - name: "movies"
     label: "Movies"
     folder: "apps/whats-on/src/content/movies"
     create: true
     fields:
-      - label: "Movie List"
-        name: "movies"
-        widget: "list"
-        field:
-          label: "Movie Title"
-          name: "title"
-          widget: "string"
+      - { label: "Movie List", name: "movies", widget: "text" }

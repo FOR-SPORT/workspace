@@ -12,7 +12,7 @@ const greeting = defineCollection({
 const movies = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/movies/' }),
   schema: z.object({
-    movies: z.array(z.string()),
+    movies: z.string(), // This will be the raw text content
   }),
 });
 
