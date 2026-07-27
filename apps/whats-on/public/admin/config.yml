@@ -15,3 +15,9 @@ collections:
     create: false
     fields:
       - { label: "Text", name: "text", widget: "string" }
+  - name: "movies"
+    label: "Movies"
+    folder: "apps/whats-on/src/content/movies"
+    create: true
+    fields:
+      - { label: "Movie List", name: "movies", widget: "list", types: [{ label: "Movie Title", name: "movie", widget: "string" }] }

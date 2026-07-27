@@ -9,4 +9,11 @@ const greeting = defineCollection({
   }),
 });
 
-export const collections = { greeting };
+const movies = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/movies/' }),
+  schema: z.object({
+    movies: z.array(z.string()),
+  }),
+});
+
+export const collections = { greeting, movies };
