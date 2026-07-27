@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: for-sport/whats-on-content
+  branch: main
+  base_url: https://fs-whats-on.netlify.app
+  auth_endpoint: oauth
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "greeting"
+    label: "Greeting"
+    folder: "src/content/greeting"
+    create: false
+    fields:
+      - { label: "Text", name: "text", widget: "string" }

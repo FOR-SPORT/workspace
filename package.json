@@ -4,14 +4,16 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "astro": "^6.0.0",
+    "astro-decap-cms-oauth": "^0.5.2"
+  },
   "devDependencies": {
     "@nx/js": "23.1.0",
     "@nx/workspace": "23.1.0",
     "nx": "23.1.0"
   },
   "workspaces": [
-    "apps/*",
     "libs/*"
   ]
 }
