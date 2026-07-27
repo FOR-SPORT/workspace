@@ -19,7 +19,7 @@ collections:
         widget: "string"
   - name: "movies"
     label: "Movies"
-    file: "apps/whats-on/src/content/movies/list.md"
+    folder: "apps/whats-on/src/content/movies"
     create: true
     fields:
       - label: "Movie List"
